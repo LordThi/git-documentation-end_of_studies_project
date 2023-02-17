@@ -259,7 +259,9 @@ C'est ce que vous avez du vous dire en lisant le paragraphe précédent, et le s
 Ça se croise, se décroise, ça part dans tous les sens, on comprend rien.  
 Soufflez un coup, on va y aller en douceur et à la fin de cette explication sur les branches vous serez de vrais petits singes 🐒.
 
-Pourquoi créer une nouvelle branche ?
+Pourquoi vouloir créer une nouvelle branche ?
+
+![hemet-branch](img_git_doc/bttf-branch.jpeg)
 
 Voici les credos permettant d'expliquer son intérêt:  
 
@@ -268,7 +270,7 @@ Voici les credos permettant d'expliquer son intérêt:
 <summary>Pourquoi ?</summary>
 <br>
 
-Imaginons une meute de 1 loup:  
+Imaginons une meute d'un seul loup 🐺:  
 
 - 🧔‍♂️ `Jean-Dev Péachpey`, freelanceur de l'extrème. Il vit entre les fuseaux horaires de Paris et de Turcoing, "LinkedIn" et "start-up" sont les termes qu'il utilise le plus. Il commite au gré du vent et aime commencer plein de features à la fois et le concept de branche lui est étranger.
 
@@ -300,7 +302,7 @@ La branche `Main` est constament préservée
 <summary>Pourquoi ?</summary>
 <br>
 
-Imaginons une meute de 2 loups:  
+Imaginons une meute de deux loups 🐺🐺:  
 
 - 👨‍🦱 `Doug Enghulard`, collectionneur aguerri de claviers mécaniques qu'il apprécit particulièrement pour leur facilité à casser les bonbons de ses collègues dans l'open space. Certains jours où le temps est clair, il parvient même à déranger des employés d'autres services.
 
@@ -312,4 +314,11 @@ Au moment de commit, si nos deux génies n'ont pas écrit aux mêmes endroits ou
 
 La solution? Créer une branche de branche.
 
-![branchverse](img_git_doc/git-branch-verse.png)
+![branchverse](img_git_doc/git-branch-branch.png)
+
+Ce que l'on voit:
+
+- Jean-Dev a créé sa branche violette à partir de main pour coder proprement sa feature sans déranger les autres puis a push pour signifier aux autres l'existance de cette branche sur le projet. Il a ensuite fait un petit peu de code le lendemain et a fait son deuxième push.
+- Doug a voulu travailler sur le code de JD, peut être pour corriger quelques bugs qu'il a pu voir sur le code de JD pendant une code review. Il a donc créé une branche verte depuis la branche de JD afin d'éviter que ses corrections n'affectent tout de suite le code de notre JD et forcement du reste de l'équipe.
+
+La branche `Main` est préservée ainsi que la branche `violette`.
