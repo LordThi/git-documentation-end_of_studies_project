@@ -6,9 +6,11 @@ Mon rôle fut celui de GIT Master. Ma première action dans ce rôle a été de 
 
 Pour cela j'ai rédigé un guide explicatif de GIT, des commandes principales, etc. Plus qu'un simple recueil j'ai voulu vulgariser GIT afin que son potentiel puisse être plus clair pour le plus grand nombre.
 
-Cette documentation n'est donc pas parfaite mais elle est faite avec le coeur.
+Cette documentation n'est donc pas parfaite mais elle est faite avec le coeur 🫀.
 
-Sentez vous libre de vous en inspirer ou de la modifier en forkant le projet et pourquoi pas me proposer des modification via une pull request. Qui sait, peut-être que votre code pourra être merge.
+*Au 17.02.2023, elle est toujours en cours d'écriture et est donc encore incomplète.*
+
+Sentez vous libre de vous en inspirer ou de la modifier en `forkant` le projet et pourquoi pas me proposer des modification via une `pull request`. Qui sait, peut-être que votre code pourra être `merge`.
 
 Si tu as compris un mot sur deux, bienvenue.
 
