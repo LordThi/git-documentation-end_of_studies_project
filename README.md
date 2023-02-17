@@ -15,3 +15,5 @@ Sentez vous libre de vous en inspirer ou de la modifier en `forkant` le projet e
 Si tu as compris un mot sur deux, bienvenue.
 
 <h1 align="center"><a href="git_documentation.md">Lien vers la doc</a></h1>
+
+🫶 Si le projet te plait, n'hésites pas à cliquer sur l'étoile en haut à droite pour qu'il soit en Star ⭐️
